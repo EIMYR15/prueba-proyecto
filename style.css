@@ -1,0 +1,71 @@
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    border: solid 1PX;
+    font-weight: bold; /*estilo para negrita a la fuente*/
+    font-size: 20px;
+}
+
+/*estilos para centrar verticalmente*/
+header, nav, article, aside, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 60px;
+    background-color: #fbd8bc;
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 40px;
+    background-color: #d2d3aa;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    float:left; 
+    background-color: #b7dde8;
+    height: 200px;
+    width: calc(20% - 15px);
+}
+
+#contenedorSection{
+    float:right; 
+    width: 80%;
+}
+
+section{
+    background-color: #d8d8d8;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 0 15px 0 15px;
+}
+
+article{
+    background-color: #8db1e3;
+    float: left;
+    width: calc(70% - 15px);
+    height: 255px;
+}
+
+aside{
+    background-color: #d99690;
+    float: right;
+    height: 120px;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.section-title{
+    margin: 5px 0 5px 0;
+}
